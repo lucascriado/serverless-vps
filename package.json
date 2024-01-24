@@ -1,0 +1,16 @@
+{
+  "name": "server-reload",
+  "version": "1.0.0",
+  "description": "💻 - Application to run application routines for server addresses and ports",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
