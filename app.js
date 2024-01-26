@@ -11,8 +11,8 @@ app.get('/', (req, res) => {
 });
 
 const options = {
-  key: fs.readFileSync('/etc/letsencrypt/live/lucascriado.com/privkey.pem'),
-  cert: fs.readFileSync('/etc/letsencrypt/live/lucascriado.com/fullchain.pem')
+  key: fs.readFileSync('./privkey.pem'),
+  cert: fs.readFileSync('./fullchain.pem')
 };
 
 // Define a porta
